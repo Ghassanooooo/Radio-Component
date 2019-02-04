@@ -1,0 +1,16 @@
+.Station {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  background: #edae61;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-top: 18px;
+}
+
+.StationText {
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}

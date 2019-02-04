@@ -1,0 +1,19 @@
+.Channel {
+  padding: 0 20px;
+}
+
+.wraperDiv {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #42424c;
+}
+
+.Channel .wraperDiv p {
+  margin-bottom: 10px;
+  color: #a0a6bc;
+  text-transform: capitalize;
+}
+
+.Channel .wraperDiv p:last-child {
+  font-weight: bold;
+}

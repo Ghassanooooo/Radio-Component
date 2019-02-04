@@ -1,32 +1,13 @@
 .App {
-  text-align: center;
-}
+  -webkit-box-shadow: 3px 3px 5px 6px #151515; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #151515; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #151515; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position: relative;
+  width: 300px;
+  height: 500px;
+  background: #2a2a34;
+  margin: 100px auto;
+  border-radius: 25px;
+  overflow: hidden;
 }
