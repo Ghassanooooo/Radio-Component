@@ -11,7 +11,7 @@ class Station extends Component {
         </span>
 
         <p className="StationText">Station</p>
-        <span className="StationText">
+        <span className="StationText" onClick={this.props.turnOff}>
           {" "}
           <i className="fas fa-power-off " />
         </span>
